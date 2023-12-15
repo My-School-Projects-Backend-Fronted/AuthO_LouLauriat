@@ -1,0 +1,54 @@
+.login-btn{
+  background-color: green;
+}
+.text-orange {
+  font-size: 8rem;
+  color: orange;
+}
+
+.text-white {
+  font-size: 3rem;
+  color: black;
+}
+
+.text-green {
+  font-size: 8rem;
+  color: green;
+}
+.parent {
+  margin-top: 150px;
+  display: grid;
+}
+
+.div1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.title{
+  margin-top: 50px;
+  font-size: 5em;
+  text-align: center;
+  /* Taille du texte */
+  font-family: 'Kalnia', serif;
+  /* Police du texte */
+  color: orange;
+  /* Couleur du texte */
+  background-color: white;
+  // display: flex; /* Nouveau */
+  // justify-content: center; /* Nouveau */
+  align-items: center;
+}
+
+.div2 {
+  grid-area: 2 / 2 / 3 / 3;
+  border: solid red
+}
+.description {
+  margin-top: 30px;
+  font-size: 1em; /* Taille du texte */
+  font-family: 'Roboto', sans-serif; /* Police du texte */
+  color: black; /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  display: flex;
+  justify-content: center;
+}
